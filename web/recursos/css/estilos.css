@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 150px;
+    margin: -75px;
+ 
+}
+.caja{
+    width: 200px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.boton{
+    margin-top: 20px;
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    background-color: #666666;
+    color: white;
+}
+#resultado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 150px;
+    margin-top: 150px;
+    margin-left: -50px;
+    display: flex;
+    flex-direction: row;
+}
+#titulo p{
+    color: red;
+    font-weight: bold;
+}
+#res p{
+    color: #003366;
+    font-weight: bold;
+}

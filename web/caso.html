@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="recursos/css/estilos.css"/>
+    </head>
+    <body>
+        <div class="container" >
+            <input type="text" class="caja" id="nombre" placeholder="Nombre">
+            <input type="text" class="caja" id="ht" placeholder="Horas Trabajadas">
+            <input type="text" class="caja" id="ph" placeholder="Pago x hora">
+            <button onclick="pago()" class="boton"> Calcular</button>
+
+        </div>
+        <div id="resultado" style="display: none">
+            <div id="titulo">
+                <p>Nombre:</p>
+                <p>Salario:</p>
+                <p>Impuesto:</p>
+                <p>Salario Neto:</p>
+            </div>
+            <div id="res">
+                <p id="r1"></p>
+                <p id="r2"></p>
+                <p id="r3"></p>
+                <p id="r4"></p>
+            </div>
+        </div>
+        <script src="recursos/js/script.js"></script>
+    </body>
+</html>
